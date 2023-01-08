@@ -86,7 +86,7 @@ export default function RK4({x0, y0, t0, h, n, func1, func2}:calcInput){
                 },
             ]}
 
-            layout={{ width: 1000, height: 500, title: 'Grafico' }} />
+            layout={{ width: 1000, height: 500, title: 'Grafico do sistema de EDO' }} />
       
     );
 }
